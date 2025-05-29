@@ -24,7 +24,7 @@
 .bg-secondary {
   background-color: var(--color-secondary);
 }
-.bg-alternative {
+.bg-alt {
   background-color: var(--color-alternative);
 }
 .bg-warning {
