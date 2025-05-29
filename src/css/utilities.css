@@ -1,0 +1,60 @@
+/* utilities.css */
+
+/* Tekst-farger */
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-alternative {
+  color: var(--color-alternative);
+}
+.text-warning {
+  color: var(--color-warning);
+}
+.text-alert {
+  color: var(--color-alert);
+}
+
+/* Bakgrunns-farger */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-alternative {
+  background-color: var(--color-alternative);
+}
+.bg-warning {
+  background-color: var(--color-warning);
+}
+.bg-alert {
+  background-color: var(--color-alert);
+}
+
+/* Øvrige utilities */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+.p-2 {
+  padding: 1rem;
+}

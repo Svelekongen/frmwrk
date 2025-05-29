@@ -1,0 +1,29 @@
+/* base.css */
+:root {
+  --font-base: "Inter", sans-serif;
+
+  /* Fargepalett */
+  --color-primary: #0d6efd;
+  --color-secondary: #6c757d;
+  --color-alternative: #20c997;
+  --color-warning: #ffc107;
+  --color-alert: #dc3545;
+
+  --color-bg: #fdfdfd;
+  --color-text: #222;
+  --radius: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

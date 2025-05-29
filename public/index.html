@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Framework Preview</title>
+    <link rel="stylesheet" href="../src/css/base.css" />
+    <link rel="stylesheet" href="../src/css/layout.css" />
+    <link rel="stylesheet" href="../src/css/typography.css" />
+    <link rel="stylesheet" href="../src/css/components.css" />
+    <link rel="stylesheet" href="../src/css/utilities.css" />
+  </head>
+  <body>
+    <header class="container mt-2">
+      <h1 class="text-center">CSS Framework Preview</h1>
+      <p class="text-center">
+        En testside for alle komponentene og hjelpeklassene
+      </p>
+    </header>
+
+    <section class="container mt-2">
+      <h2 class="h2">Typography</h2>
+      <h3 class="h3">Overskrift nivå 3</h3>
+      <p>Dette er et avsnitt som viser font-size, line-height og marginer.</p>
+      <a href="#">En lenke med rammeverksfarger</a>
+    </section>
+
+    <section class="container mt-2">
+      <h2 class="h2">Buttons</h2>
+      <button class="btn bg-secondary">Primær knapp</button>
+      <button class="btn bg-primary mt-1 mb-1">Sekundær knapp</button>
+    </section>
+
+    <section class="container mt-2">
+      <h2 class="h2">Grid System</h2>
+      <div class="row">
+        <div class="col">
+          <div class="card p-1">Kolonne 1</div>
+        </div>
+        <div class="col">
+          <div class="card p-1">Kolonne 2</div>
+        </div>
+        <div class="col">
+          <div class="card p-1">Kolonne 3</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-2">
+      <h2 class="h2">Utilities</h2>
+      <div class="bg-light p-2 mt-1">Bakgrunn med padding og margin</div>
+    </section>
+
+    <section class="container mt-2">
+      <h2 class="h2">Modal Component</h2>
+      <button class="btn" data-toggle="modal" data-target="#demoModal">
+        Åpne Modal
+      </button>
+      <div id="demoModal" class="card hidden p-2 mt-1" style="max-width: 400px">
+        <h3 class="h3">Modal Tittel</h3>
+        <p>Innholdet i modal-vinduet. Legg inn komponenter og utilities her!</p>
+        <button class="btn mt-1" data-toggle="modal" data-target="#demoModal">
+          Lukk Modal
+        </button>
+      </div>
+    </section>
+
+    <script src="../src/js/app.js"></script>
+    <script src="../src/js/interactions.js"></script>
+  </body>
+</html>
