@@ -21,3 +21,22 @@ button:hover {
   background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: #fff;
+}
+.navbar a {
+  color: inherit;
+  margin-right: 1rem;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 1rem;
+}

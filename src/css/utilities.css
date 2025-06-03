@@ -58,3 +58,25 @@
 .p-2 {
   padding: 1rem;
 }
+
+/* Typography helpers */
+.fw-bold {
+  font-weight: bold;
+}
+.text-small {
+  font-size: 0.875rem;
+}
+
+/* Spacing utilities */
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .mt-2-md {
+    margin-top: 1rem;
+  }
+}
