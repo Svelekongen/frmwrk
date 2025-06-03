@@ -12,3 +12,9 @@ utility classes, a simple grid system, basic components and a small demo.
 - Simple JavaScript helpers for modals and theme switching
 
 Open `public/index.html` to preview the components.
+
+## Theme Preference
+
+The framework stores your theme choice in `localStorage`. On first load it will
+fall back to your operating system preference using `prefers-color-scheme`.
+Toggle the theme with the button in `index.html` to save your preference.

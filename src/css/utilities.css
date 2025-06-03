@@ -1,13 +1,13 @@
 /* utilities.css */
 
-/* Tekst-farger */
+/* Text colors */
 .text-primary {
   color: var(--color-primary);
 }
 .text-secondary {
   color: var(--color-secondary);
 }
-.text-alternative {
+.text-alt {
   color: var(--color-alternative);
 }
 .text-warning {
@@ -17,12 +17,15 @@
   color: var(--color-alert);
 }
 
-/* Bakgrunns-farger */
+/* Background colors */
 .bg-primary {
   background-color: var(--color-primary);
 }
 .bg-secondary {
   background-color: var(--color-secondary);
+}
+.bg-light {
+  background-color: #f8f9fa;
 }
 .bg-alt {
   background-color: var(--color-alternative);
@@ -34,7 +37,7 @@
   background-color: var(--color-alert);
 }
 
-/* Øvrige utilities */
+/* Misc utilities */
 .text-center {
   text-align: center;
 }
@@ -57,6 +60,9 @@
 }
 .p-2 {
   padding: 1rem;
+}
+.hidden {
+  display: none !important;
 }
 
 /* Typography helpers */
