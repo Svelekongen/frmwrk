@@ -14,6 +14,15 @@
   --radius: 0.5rem;
 }
 
+/* Dark mode variables */
+.dark-mode {
+  --color-bg: #222;
+  --color-text: #fdfdfd;
+  --color-primary: #0d6efd;
+  --color-secondary: #6c757d;
+  --color-alternative: #20c997;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,4 +35,28 @@ body {
   line-height: 1.6;
   background-color: var(--color-bg);
   color: var(--color-text);
+}
+
+input,
+textarea,
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  font: inherit;
+  background-color: #fff;
+  color: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.25);
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.25rem;
 }

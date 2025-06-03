@@ -23,3 +23,15 @@ a {
   color: var(--color-primary);
   text-decoration: none;
 }
+
+pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: var(--radius);
+}
+
+code {
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+}
