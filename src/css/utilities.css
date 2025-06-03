@@ -21,21 +21,6 @@
 .bg-primary {
   background-color: var(--color-primary);
 }
-.bg-secondary {
-  background-color: var(--color-secondary);
-}
-.bg-light {
-  background-color: #f8f9fa;
-}
-.bg-alt {
-  background-color: var(--color-alternative);
-}
-.bg-warning {
-  background-color: var(--color-warning);
-}
-.bg-alert {
-  background-color: var(--color-alert);
-}
 
 /* Misc utilities */
 .text-center {

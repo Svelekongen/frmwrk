@@ -9,21 +9,6 @@
   --color-warning: #ffc107;
   --color-alert: #dc3545;
 
-  --color-bg: #fdfdfd;
-  --color-text: #222;
-  --radius: 0.5rem;
-}
-
-/* Dark mode variables */
-.dark-mode {
-  --color-bg: #222;
-  --color-text: #fdfdfd;
-  --color-code-bg: #343a40;
-  --color-primary: #0d6efd;
-  --color-secondary: #6c757d;
-  --color-alternative: #20c997;
-  --color-card-bg: #333;
-}
 
 * {
   margin: 0;
