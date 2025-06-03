@@ -16,7 +16,7 @@
       <div>
         <a href="#">Home</a>
         <a href="#">Docs</a>
-        <button id="themeToggle" class="btn">Toggle Theme</button>
+        <button id="themeToggle" class="btn" aria-label="Toggle color theme">Toggle Theme</button>
       </div>
     </nav>
     <hr class="section-divider" />
@@ -112,19 +112,18 @@
 
     <section class="container mt-2">
       <h2 class="h2">Modal Component</h2>
-      <button class="btn" data-toggle="modal" data-target="#demoModal">
+      <button class="btn" data-toggle="modal" data-target="#demoModal" aria-label="Open modal">
         Åpne Modal
       </button>
-      <div id="demoModal" class="card hidden p-2 mt-1" style="max-width: 400px">
+      <div id="demoModal" class="card hidden p-2 mt-1" style="max-width: 400px" role="dialog" aria-modal="true">
         <h3 class="h3">Modal Tittel</h3>
         <p>Innholdet i modal-vinduet. Legg inn komponenter og utilities her!</p>
-        <button class="btn mt-1" data-toggle="modal" data-target="#demoModal">
+        <button class="btn mt-1" data-toggle="modal" data-target="#demoModal" aria-label="Close modal">
           Lukk Modal
         </button>
       </div>
     </section>
 
-    <script src="../src/js/app.js"></script>
-    <script src="../src/js/interactions.js"></script>
+    <script type="module" src="../src/js/app.js"></script>
   </body>
 </html>
