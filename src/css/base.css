@@ -2,28 +2,13 @@
 :root {
   --font-base: "Inter", sans-serif;
 
-  /* Fargepalett */
+  /* Color palette */
   --color-primary: #0d6efd;
   --color-secondary: #6c757d;
   --color-alternative: #20c997;
   --color-warning: #ffc107;
   --color-alert: #dc3545;
 
-  --color-bg: #fdfdfd;
-  --color-text: #222;
-  --color-bg-light: #f8f9fa;
-  --radius: 0.5rem;
-}
-
-/* Dark mode variables */
-.dark-mode {
-  --color-bg: #222;
-  --color-text: #fdfdfd;
-  --color-bg-light: #333;
-  --color-primary: #0d6efd;
-  --color-secondary: #6c757d;
-  --color-alternative: #20c997;
-}
 
 * {
   margin: 0;
