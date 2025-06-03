@@ -33,6 +33,9 @@
 .bg-alert {
   background-color: var(--color-alert);
 }
+.bg-light {
+  background-color: var(--color-bg-light);
+}
 
 /* Øvrige utilities */
 .text-center {

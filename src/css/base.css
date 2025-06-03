@@ -11,6 +11,7 @@
 
   --color-bg: #fdfdfd;
   --color-text: #222;
+  --color-bg-light: #f8f9fa;
   --radius: 0.5rem;
 }
 
@@ -18,6 +19,7 @@
 .dark-mode {
   --color-bg: #222;
   --color-text: #fdfdfd;
+  --color-bg-light: #333;
   --color-primary: #0d6efd;
   --color-secondary: #6c757d;
   --color-alternative: #20c997;
