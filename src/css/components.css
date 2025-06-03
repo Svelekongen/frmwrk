@@ -40,3 +40,10 @@ button:hover {
 .form-group {
   margin-bottom: 1rem;
 }
+
+/* Divider */
+.section-divider {
+  border: 0;
+  border-top: 1px solid var(--color-secondary);
+  margin: 2rem 0;
+}
