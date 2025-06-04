@@ -9,6 +9,26 @@
   --color-warning: #ffc107;
   --color-alert: #dc3545;
 
+  /* Layout helpers */
+  --radius: 4px;
+
+  /* Theme variables */
+  --color-bg: #ffffff;
+  --color-text: #212529;
+  --color-bg-light: #f8f9fa;
+  --color-card-bg: #ffffff;
+  --color-code-bg: #f8f9fa;
+  --color-input-bg: #ffffff;
+}
+
+.dark-mode {
+  --color-bg: #121212;
+  --color-text: #f8f9fa;
+  --color-bg-light: #2c2c2c;
+  --color-card-bg: #1e1e1e;
+  --color-code-bg: #1f1f1f;
+  --color-input-bg: #2a2a2a;
+}
 
 * {
   margin: 0;
@@ -31,7 +51,7 @@ select {
   border: 1px solid #ccc;
   border-radius: var(--radius);
   font: inherit;
-  background-color: #fff;
+  background-color: var(--color-input-bg);
   color: inherit;
 }
 
