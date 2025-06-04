@@ -21,6 +21,9 @@
 .bg-primary {
   background-color: var(--color-primary);
 }
+.bg-light {
+  background-color: var(--color-bg-light);
+}
 
 /* Misc utilities */
 .text-center {
